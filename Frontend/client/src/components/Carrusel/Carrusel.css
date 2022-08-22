@@ -1,0 +1,33 @@
+.item{
+  height: 300px;
+  /* min-width: 30rem; */
+  /* padding: 2rem; */
+  /* background-color: bisque; */
+  align-items: center;
+  justify-content: center;
+}
+/* .item img{
+  height: 200px;
+  width: 250px;
+  pointer-events: none;
+
+} */
+.slider{
+  display: flex;
+  cursor: grab;
+  
+}
+.slider-container{
+  /* margin: 0 auto; */
+  /* overflow-x: hidden; */
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+.h-fit {  
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+

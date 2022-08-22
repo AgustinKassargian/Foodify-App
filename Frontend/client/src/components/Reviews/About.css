@@ -1,0 +1,96 @@
+/* @media screen {
+    @media (min-width)
+} */
+
+/* 
+ 
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    height: 100%;
+    padding: 100px 0 5px 0;
+    margin-bottom: 0px;
+}
+ 
+.inner-container{
+    margin: 100px 90px 50px 90px;
+    width: 55%;
+    
+    background-color: #fdfdfd;
+    padding: 120px;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+ 
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+ 
+.text{
+    font-size: 16px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.h1{
+  color: #ff8000;
+}
+  */
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+ 
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+ 
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+ 
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+
+.active{
+    background-image: linear-gradient(to right top, #fc5603, #fc7000, #fc9000, #fc9000, #ff895b);
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    
+}
+
+.active:hover{
+    background-image: linear-gradient(to right top, #f89553, #f39c54, #ee8a55, #e8a855, #e37e56);
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
